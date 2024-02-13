@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto','Lucida Sans', 'Lucida Grande', sans-serif;
+}
+
+body {
+    background-color: #232529;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #2f3136;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+h3{
+    margin-top: 15px;
+    padding: 12px 0;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input{
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.delete-account p{
+    color: red;
+    font-weight: bold;
+    padding-bottom: 12px;
+    font-size: 15px;
+}
+
+.actions button,
+.delete-account button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete-account p {
+    margin-bottom: 10px;
+}

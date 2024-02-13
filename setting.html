@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="css/setting.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Account Settings</h1>
+        <form id="profileForm">
+            <div class="form-group">
+                <label for="displayName">Email Address:</label>
+                <input type="text" id="displayName" name="displayName" required>
+            </div>
+        </form>
+
+        <div class="actions">
+            <button id="changePasswordBtn">Change Password</button>
+            <button id="confirmEmailBtn">Confirm Your Email</button>
+        </div>
+
+        <div class="delete-account">
+            <h3>Delete Your Account</h3>
+            <p>Warning: This action cannot be undone.</p>
+            <button id="deleteAccountBtn">Delete Account</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
